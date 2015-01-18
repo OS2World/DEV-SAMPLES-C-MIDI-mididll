@@ -1,0 +1,11 @@
+# MFTOVLQ Dependencies
+
+# Assumed INCLUDE environment variable path:
+#   C:\TOOLKT21\C\OS2H;
+#   C:\IBMCPP\INCLUDE;
+
+
+MFTOVLQ.OBJ:  MFTOVLQ.C  \
+   midifile.h  \
+   MFTOVLQ.MAK
+

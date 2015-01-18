@@ -1,0 +1,35 @@
+;******** MIDIFILE.DLL Module Definition File (.DEF) ********
+;
+; The module definition file supplies extra information about the program module to the LINKER.
+;
+; Note: This is a Dynamic Link Library
+
+LIBRARY  MIDIFILE
+DESCRIPTION 'MIDI File Reader/Writer'
+
+DATA	SINGLE
+
+EXPORTS
+  MidiReadFile
+  MidiReadBytes
+  MidiSkipChunk
+  MidiSkipEvent
+  MidiReadVLQ
+  MidiReadHeader
+  MidiWriteBytes
+  MidiWriteVLQ
+  MidiWriteHeader
+  MidiWriteFile
+  MidiCloseChunk
+  MidiWriteEvt
+  MidiSeek
+  MidiFileSize
+  MidiFlipLong
+  MidiFlipShort
+  MidiCompareID
+  MidiCloseFile
+  MidiVLQToLong
+  MidiLongToVLQ
+  MidiGetErr
+
+

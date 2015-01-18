@@ -1,0 +1,11 @@
+# MFREAD Dependencies
+
+# Assumed INCLUDE environment variable path:
+#   C:\TOOLKT21\C\OS2H;
+#   C:\IBMCPP\INCLUDE;
+
+
+MFREAD.OBJ:  MFREAD.C  \
+   midifile.h  \
+   MFREAD.MAK
+
